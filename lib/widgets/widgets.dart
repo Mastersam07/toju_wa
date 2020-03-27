@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:tojuwa/screens/articlescreen.dart';
+import 'package:tojuwa/screens/article_screen.dart';
 
 Widget MyAppBar() {
   return AppBar(
