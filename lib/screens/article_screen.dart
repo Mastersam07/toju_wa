@@ -1,5 +1,6 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
+import 'package:share/share.dart';
 import 'package:webview_flutter/webview_flutter.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 
@@ -49,7 +50,10 @@ class _ArticleViewState extends State<ArticleView> {
               Icons.share,
               color: Colors.black,
             ),
-            onPressed: null,
+            onPressed: (){
+              Share.share(
+                  "Download the Covid-19 Awareness App and share with your friends and loved ones.\nAwareness App -  http://bit.ly/somelink");
+            },
           ),
         ],
 //        backgroundColor: Colors.transparent,
