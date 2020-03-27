@@ -1,9 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:tojuwa/screens/newsscreen.dart';
+import 'package:tojuwa/screens/helpline_screen.dart';
+import 'package:tojuwa/screens/news_screen.dart';
+import 'package:tojuwa/screens/statistics.dart';
 import 'package:tojuwa/utils/constants.dart';
+import 'package:tojuwa/widgets/dev_scaffold.dart';
 import 'package:tojuwa/widgets/info_box.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:tojuwa/screens/precautions.dart';
+import 'package:tojuwa/network/coviddata.dart';
 
 class Home extends StatefulWidget {
   @override
@@ -11,30 +15,25 @@ class Home extends StatefulWidget {
 }
 
 class _HomeState extends State<Home> {
+  var niglist;
+  var globallist;
+
+  void getNigeriaCases() async {
+    CasesForCorona cases = CasesForCorona();
+    await cases.getCasesForCorona();
+    niglist = cases.cases;
+  }
+
+  void getGlobalCases() async {
+    GlobalTotalForCorona cases = GlobalTotalForCorona();
+    await cases.getTotalCasesForCorona();
+    globallist = cases.cases;
+  }
+
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text('Toju Wa'),
-        centerTitle: true,
-        elevation: 0,
-        actions: <Widget>[
-          IconButton(
-            icon: Icon(
-              Icons.lightbulb_outline,
-              color: Colors.black,
-            ),
-            onPressed: null,
-          ),
-          IconButton(
-            icon: Icon(
-              Icons.share,
-              color: Colors.black,
-            ),
-            onPressed: null,
-          ),
-        ],
-      ),
+    return DevScaffold(
+      title: 'Toju Wa',
       body: SafeArea(
         child: Padding(
           padding: EdgeInsets.only(top: 5, left: 10, right: 10, bottom: 10),
@@ -55,7 +54,7 @@ class _HomeState extends State<Home> {
                       children: <Widget>[
                         InfoBox(
                           title: 'Total cases',
-                          number: 123456,
+                          number: 12345,
                           color: Colors.blue,
                           icon: Icon(FontAwesomeIcons.globeAmericas,
                               color: Colors.white, size: 20),
@@ -148,8 +147,7 @@ class _HomeState extends State<Home> {
                         onTap: () {
                           Navigator.push(
                             context,
-                            MaterialPageRoute(
-                                builder: (context) => Measures()),
+                            MaterialPageRoute(builder: (context) => Measures()),
                           );
                         },
                       ),
@@ -180,6 +178,63 @@ class _HomeState extends State<Home> {
                             context,
                             MaterialPageRoute(
                                 builder: (context) => CoronaNews()),
+                          );
+                        },
+                      ),
+                    ),
+                    Container(
+                      padding: EdgeInsets.symmetric(vertical: 5),
+                      decoration: BoxDecoration(
+                        color: kBoxLightColor,
+                        borderRadius: kBoxesRadius,
+                      ),
+                      child: ListTile(
+                        leading: Icon(
+                          FontAwesomeIcons.chartLine,
+                          color: Colors.blue,
+                        ),
+                        title: Text(
+                          'Statistics',
+                          style: TextStyle(
+                              fontSize: 20, fontWeight: FontWeight.bold),
+                        ),
+                        subtitle: Text(
+                          'View the stats and trends of the infection',
+                          style: TextStyle(fontSize: 15),
+                        ),
+                        onTap: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => Statistics()),
+                          );
+                        },
+                      ),
+                    ),
+                    Container(
+                      padding: EdgeInsets.symmetric(vertical: 5),
+                      decoration: BoxDecoration(
+                        color: kBoxLightColor,
+                        borderRadius: kBoxesRadius,
+                      ),
+                      child: ListTile(
+                        leading: Icon(
+                          FontAwesomeIcons.phoneAlt,
+                          color: Colors.blue,
+                        ),
+                        title: Text(
+                          'Helpline',
+                          style: TextStyle(
+                              fontSize: 20, fontWeight: FontWeight.bold),
+                        ),
+                        subtitle: Text(
+                          'Know anyone exhibiting symptoms and need help?',
+                          style: TextStyle(fontSize: 15),
+                        ),
+                        onTap: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(builder: (context) => HelpLine()),
                           );
                         },
                       ),
