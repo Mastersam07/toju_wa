@@ -35,7 +35,7 @@ Download the `apk-release.apk` to try out Flutsapp
 ## 📸 ScreenShots
 
 
-|<img src="ss/1.png" width="250">|<img src="ss/2.png" width="250">|
+|<img src="ss/new1.png" width="250">|<img src="ss/2.png" width="250">|
 |<img src="ss/3.png" width="250">|<img src="ss/4.png" width="250">|
 
 ## 🔌 Plugins
