@@ -5,9 +5,6 @@ import 'package:tojuwa/widgets/widgets.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 
 class CoronaNews extends StatefulWidget {
-  final String newsCategory;
-
-  CoronaNews({this.newsCategory});
 
   @override
   _CoronaNewsState createState() => _CoronaNewsState();
