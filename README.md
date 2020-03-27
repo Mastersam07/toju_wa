@@ -3,8 +3,8 @@
 Corona tracking application built with flutter
 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-success.svg?style=flat-square)](https://github.com/Mastersam07/toju_wa/pulls)
-![GitHub contributors](https://img.shields.io/github/contributors/mastersam07/toju_wa?color=success)
-![GitHub last commit](https://img.shields.io/github/last-commit/mastersam07/toju_wa)
+![GitHub contributors](https://img.shields.io/github/contributors/mastersam07/toju_wa?color=success&style=flat-square)
+![GitHub last commit](https://img.shields.io/github/last-commit/mastersam07/toju_wa?style=flat-square)
 
 > This app is under development
 >
