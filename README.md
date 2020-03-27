@@ -72,6 +72,8 @@ String apiKey = "Your_Api_Key";
 ## What's Next?
  - [ ] Statistics and trends
  - [ ] Helpline
+ - [ ] Cache Api response
+ - [ ] Darkmode
  
 ## 🐛 Bugs/Request
 #### Encounter any problem(s)? feel free to open an issue. If you feel you could make something better, please raise a ticket on Github and I'll look into it. Pull request are also welcome.
