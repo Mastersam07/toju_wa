@@ -2,18 +2,19 @@
 
 Corona tracking application built with flutter
 
+[![Codemagic build status](https://api.codemagic.io/apps/5e7e1244c986422ef4e10b98/5e7e1244c986422ef4e10b97/status_badge.svg)](https://codemagic.io/apps/5e7e1244c986422ef4e10b98/5e7e1244c986422ef4e10b97/latest_build)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-success.svg?style=flat-square)](https://github.com/Mastersam07/toju_wa/pulls)
-![GitHub contributors](https://img.shields.io/github/contributors/mastersam07/toju_wa?color=success)
-![GitHub last commit](https://img.shields.io/github/last-commit/mastersam07/toju_wa)
+![GitHub contributors](https://img.shields.io/github/contributors/mastersam07/toju_wa?color=success&style=flat-square)
+![GitHub last commit](https://img.shields.io/github/last-commit/mastersam07/toju_wa?style=flat-square)
 
 > This app is under development
 >
 >
 
 ## Demo
-Download the `apk-release.apk` to try out Flutsapp
+Download the `app-debug.apk` to try out the app
 <br>
-<a href="#"><img src="https://playerzon.com/asset/download.png" width="200"></img></a>
+<a href="https://static.codemagic.io/files/36d6750c-29bc-4a15-b3e3-ab967cf58885/abfb6928-7414-4f01-b424-fb19555eec2c/app-debug.apk"><img src="https://playerzon.com/asset/download.png" width="200"></img></a>
 <br>
 
 ## 💻 Requirements
