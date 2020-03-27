@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:tojuwa/screens/newsscreen.dart';
 import 'package:tojuwa/utils/constants.dart';
 import 'package:tojuwa/widgets/info_box.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
@@ -174,7 +175,13 @@ class _HomeState extends State<Home> {
                           'Live updates about covid-19',
                           style: TextStyle(fontSize: 15),
                         ),
-                        onTap: () {},
+                        onTap: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => CoronaNews()),
+                          );
+                        },
                       ),
                     ),
                   ],
