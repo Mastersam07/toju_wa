@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:tojuwa/utils/constants.dart';
 import 'package:tojuwa/widgets/info_box.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:tojuwa/screens/precautions.dart';
 
 class Home extends StatefulWidget {
   @override
@@ -99,7 +100,7 @@ class _HomeState extends State<Home> {
                           title: 'Total cases',
                           number: 123456,
                           color: Colors.blue,
-                          icon: Icon(FontAwesomeIcons.globeAmericas,
+                          icon: Icon(FontAwesomeIcons.home,
                               color: Colors.white, size: 20),
                         ),
                         SizedBox(width: 25),
@@ -143,7 +144,13 @@ class _HomeState extends State<Home> {
                           'Protective measures against the coronavirus',
                           style: TextStyle(fontSize: 15),
                         ),
-                        onTap: () {},
+                        onTap: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => Measures()),
+                          );
+                        },
                       ),
                     ),
                     SizedBox(height: 25),
