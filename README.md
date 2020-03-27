@@ -11,7 +11,7 @@ Corona tracking application built with flutter
 >
 
 ## Demo
-Download the `apk-release.apk` to try out Flutsapp
+Download the `apk-release.apk` to try out the app
 <br>
 <a href="#"><img src="https://playerzon.com/asset/download.png" width="200"></img></a>
 <br>
