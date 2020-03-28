@@ -30,7 +30,7 @@ Download the `app-debug.apk` to try out the app
 - [x] Precautionary Measures
 - [x] Covid-19 Latest News
 - [ ] Statistics and trends
-- [ ] Helpline
+- [x] Helpline
 
 
 ## 📸 ScreenShots
@@ -73,7 +73,7 @@ String apiKey = "Your_Api_Key";
 
 ## What's Next?
  - [ ] Statistics and trends
- - [ ] Helpline
+ - [x] Helpline
  - [ ] Cache Api response
  - [ ] Darkmode
  
