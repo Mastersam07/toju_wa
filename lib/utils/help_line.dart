@@ -89,14 +89,14 @@ List<Help> helplines = [
         FontAwesomeIcons.phoneAlt,
         size: 50.0,
       ),
-      onPressed: () => launchWhatsappNcdc(),
+      onPressed: () => callNcdc(),
     ),
   ),
   Help(
     name: "W.H.O",
     desc: "Send 'hi' to who on whatsapp",
     subtitle: "Get authentic info on covid-19",
-    image: "https://ncdc.gov.ng/themes/common/imgs/logo.jpg",
+    image: "https://www.who.int/images/default-source/default-album/who-emblem-rgb.png?sfvrsn=39f388cd_0",
     onPressed: IconButton(
       color: Colors.green,
       icon: Icon(
@@ -109,7 +109,16 @@ List<Help> helplines = [
 ];
 
 Future<void> launchWhatsappNcdc() async {
-  const url = 'https://github.com/Mastersam07/wa_status_saver';
+  const url = 'https://api.whatsapp.com/send?phone=07087110839&text=Hi';
+  if (await canLaunch(url)) {
+    await launch(url);
+  } else {
+    throw 'Could not launch $url';
+  }
+}
+
+Future<void> callNcdc() async {
+  const url = 'tel://080097000010';
   if (await canLaunch(url)) {
     await launch(url);
   } else {
@@ -118,10 +127,12 @@ Future<void> launchWhatsappNcdc() async {
 }
 
 Future<void> launchWhatsappWho() async {
-  const url = 'https://github.com/Mastersam07/wa_status_saver';
+  const url = 'https://api.whatsapp.com/send?phone=41798931892&text=Hi';
   if (await canLaunch(url)) {
     await launch(url);
   } else {
     throw 'Could not launch $url';
   }
 }
+
+// NCDC toll free number 080097000010
