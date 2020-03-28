@@ -89,7 +89,7 @@ List<Help> helplines = [
   ),
 ];
 
-Future launchWhatsappNcdc() async {
+Future<void> launchWhatsappNcdc() async {
   const url = 'https://github.com/Mastersam07/wa_status_saver';
   if (await canLaunch(url)) {
     await launch(url);
@@ -98,7 +98,7 @@ Future launchWhatsappNcdc() async {
   }
 }
 
-Future launchWhatsappWho() async {
+Future<void> launchWhatsappWho() async {
   const url = 'https://github.com/Mastersam07/wa_status_saver';
   if (await canLaunch(url)) {
     await launch(url);
