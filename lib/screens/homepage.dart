@@ -25,6 +25,8 @@ class _HomeState extends State<Home> {
   int nigCases = 0;
   int nigdeaths = 0;
   int nigrecovered = 0;
+  int numberOfCountries = 0;
+  List countries = [];
 
   Future getTotalCasesForCorona() async {
     String url = "https://covid19.mathdro.id/api";
@@ -51,6 +53,21 @@ class _HomeState extends State<Home> {
         nigCases = data['confirmed']['value'];
         nigdeaths = data['deaths']['value'];
         nigrecovered = data['recovered']['value'];
+      });
+      print(data);
+    } else {
+      print(response.statusCode);
+    }
+  }
+
+  Future getCountriesData() async {
+    String url = "https://covid19.mathdro.id/api/countries";
+    http.Response response = await http.get(url);
+    if (response.statusCode >= 200 && response.statusCode <= 299) {
+      Map<String, dynamic> data = jsonDecode(response.body);
+      setState(() {
+        countries = jsonDecode(response.body);
+        numberOfCountries = countries.length;
       });
       print(data);
     } else {
@@ -108,7 +125,7 @@ class _HomeState extends State<Home> {
                           title: 'Countries',
                           color: Colors.orange,
                           icon: Icon(Icons.flag, color: Colors.white),
-                          number: 180,
+                          number: numberOfCountries,
                           onPressed: () {},
                         ),
                       ],
