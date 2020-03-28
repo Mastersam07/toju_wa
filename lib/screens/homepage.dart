@@ -67,7 +67,7 @@ class _HomeState extends State<Home> {
       Map<String, dynamic> data = jsonDecode(response.body);
       setState(() {
         countries = jsonDecode(response.body);
-        numberOfCountries = countries.length;
+        numberOfCountries = data['countries'].length;
       });
       print(data);
     } else {
