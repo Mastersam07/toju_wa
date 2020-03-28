@@ -7,7 +7,6 @@ import 'package:tojuwa/utils/tools.dart';
 import 'package:tojuwa/widgets/dev_scaffold.dart';
 
 class HelpLine extends StatelessWidget {
-
   @override
   Widget build(BuildContext context) {
     var helpline = helplines;
@@ -78,11 +77,7 @@ class HelpLine extends StatelessWidget {
                       ],
                     ),
                   ),
-                  IconButton(
-                    disabledColor: Colors.green,
-                    icon: helpline[i].icon,
-                    onPressed: null,
-                  ),
+                  helpline[i].onPressed,
                 ],
               ),
             ),

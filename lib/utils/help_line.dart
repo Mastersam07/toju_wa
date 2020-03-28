@@ -31,7 +31,7 @@ class Help {
   String image;
   String subtitle;
   Icon icon;
-  Future onPressed;
+  IconButton onPressed;
 
   Help({
     this.name,
@@ -69,23 +69,42 @@ List<Help> helplines = [
     desc: "Send 'hi' to ncdc on whatsapp",
     subtitle: "Get info on covid-19",
     image: "https://ncdc.gov.ng/themes/common/imgs/logo.jpg",
-    icon: Icon(FontAwesomeIcons.whatsapp, size: 50.0,),
-    onPressed: launchWhatsappNcdc(),
+    onPressed: IconButton(
+      color: Colors.green,
+      icon: Icon(
+        FontAwesomeIcons.whatsapp,
+        size: 50.0,
+      ),
+      onPressed: () => launchWhatsappNcdc(),
+    ),
   ),
   Help(
     name: "NCDC",
     desc: "Call Ncdc helpline toll free",
     subtitle: "Get info on covid-19",
     image: "https://ncdc.gov.ng/themes/common/imgs/logo.jpg",
-    icon: Icon(FontAwesomeIcons.phoneAlt, size: 50.0,),
+    onPressed: IconButton(
+      color: Colors.green,
+      icon: Icon(
+        FontAwesomeIcons.phoneAlt,
+        size: 50.0,
+      ),
+      onPressed: () => launchWhatsappNcdc(),
+    ),
   ),
   Help(
     name: "W.H.O",
     desc: "Send 'hi' to who on whatsapp",
     subtitle: "Get authentic info on covid-19",
     image: "https://ncdc.gov.ng/themes/common/imgs/logo.jpg",
-    icon: Icon(FontAwesomeIcons.whatsapp, size: 50.0,),
-    onPressed: launchWhatsappWho(),
+    onPressed: IconButton(
+      color: Colors.green,
+      icon: Icon(
+        FontAwesomeIcons.whatsapp,
+        size: 50.0,
+      ),
+      onPressed: () => launchWhatsappWho(),
+    ),
   ),
 ];
 
