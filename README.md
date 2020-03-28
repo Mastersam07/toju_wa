@@ -14,7 +14,7 @@ Corona tracking application built with flutter
 ## Demo
 Download the `app-debug.apk` to try out the app
 <br>
-<a href="https://static.codemagic.io/files/36d6750c-29bc-4a15-b3e3-ab967cf58885/abfb6928-7414-4f01-b424-fb19555eec2c/app-debug.apk"><img src="https://playerzon.com/asset/download.png" width="200"></img></a>
+<a href="https://static.codemagic.io/files/ae76c227-649f-4a4e-85ab-5ce3185837f2/39418654-0ebc-4c0a-948b-462c9f7e3b47/app-debug.apk"><img src="https://playerzon.com/asset/download.png" width="200"></img></a>
 <br>
 
 ## 💻 Requirements
