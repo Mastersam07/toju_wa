@@ -33,8 +33,8 @@ class _HomeState extends State<Home> {
       Map<String, dynamic> data = jsonDecode(response.body);
       setState(() {
         totalCases = data['confirmed']['value'];
-        deaths = data['recovered']['value'];
-        recovered = data['deaths']['value'];
+        deaths = data['deaths']['value'];
+        recovered = data['recovered']['value'];
       });
       print(data);
     } else {
@@ -49,8 +49,8 @@ class _HomeState extends State<Home> {
       Map<String, dynamic> data = jsonDecode(response.body);
       setState(() {
         nigCases = data['confirmed']['value'];
-        nigdeaths = data['recovered']['value'];
-        nigrecovered = data['deaths']['value'];
+        nigdeaths = data['deaths']['value'];
+        nigrecovered = data['recovered']['value'];
       });
       print(data);
     } else {
