@@ -15,7 +15,7 @@ Corona tracker application with news updates and helplines built with flutter
 ## Demo
 Download the `app-release.apk` to try out the beta version
 <br>
-<a href="https://bit.ly/tojuwa"><img src="https://playerzon.com/asset/download.png" width="200"></img></a>
+<a href="https://bit.ly/betatojuwa"><img src="https://playerzon.com/asset/download.png" width="200"></img></a>
 <br>
 
 ## 💻 Requirements
