@@ -8,14 +8,14 @@ Corona tracker application with news updates and helplines built with flutter
 ![GitHub last commit](https://img.shields.io/github/last-commit/mastersam07/toju_wa?style=flat-square)
 [![License](https://img.shields.io/badge/license-MIT-success.svg?style=flat-square)](https://github.com/Mastersam07/toju_wa/blob/master/LICENSE)
 
-> This app is under development
+> This app is in beta
 >
 >
 
 ## Demo
-Download the `app-debug.apk` to try out the app
+Download the `app-release.apk` to try out the beta version
 <br>
-<a href="https://static.codemagic.io/files/2c8e4326-8f68-4964-b561-dea221b5bfc6/699387e4-b29c-41a5-b601-8e3e40c9cbb9/app-debug.apk"><img src="https://playerzon.com/asset/download.png" width="200"></img></a>
+<a href="https://bit.ly/tojuwa"><img src="https://playerzon.com/asset/download.png" width="200"></img></a>
 <br>
 
 ## 💻 Requirements
