@@ -52,7 +52,7 @@ class _ArticleViewState extends State<ArticleView> {
             ),
             onPressed: (){
               Share.share(
-                  "Download the Covid-19 Awareness App and share with your friends and loved ones.\nAwareness App -  http://bit.ly/somelink");
+                  "Download the Covid-19 Awareness App and share with your friends and loved ones.\nAwareness App -  https://bit.ly/betatojuwa");
             },
           ),
         ],
