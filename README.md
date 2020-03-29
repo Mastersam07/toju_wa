@@ -2,10 +2,11 @@
 
 Corona tracker application with news updates and helplines built with flutter
 
-[![Codemagic build status](https://api.codemagic.io/apps/5e7e1244c986422ef4e10b98/5e7e1244c986422ef4e10b97/status_badge.svg)](https://codemagic.io/apps/5e7e1244c986422ef4e10b98/5e7e1244c986422ef4e10b97/latest_build)
+[![Codemagic build status](https://api.codemagic.io/apps/5e7e1244c986422ef4e10b98/5e7e1244c986422ef4e10b97/status_badge.svg?style=flat-square)](https://codemagic.io/apps/5e7e1244c986422ef4e10b98/5e7e1244c986422ef4e10b97/latest_build)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-success.svg?style=flat-square)](https://github.com/Mastersam07/toju_wa/pulls)
 ![GitHub contributors](https://img.shields.io/github/contributors/mastersam07/toju_wa?color=success&style=flat-square)
 ![GitHub last commit](https://img.shields.io/github/last-commit/mastersam07/toju_wa?style=flat-square)
+[![License](https://img.shields.io/badge/license-MIT-success.svg?style=flat-square)](https://github.com/Mastersam07/toju_wa/blob/master/LICENSE)
 
 > This app is under development
 >
@@ -81,7 +82,7 @@ String apiKey = "Your_Api_Key";
 #### Encounter any problem(s)? feel free to open an issue. If you feel you could make something better, please raise a ticket on Github and I'll look into it. Pull request are also welcome.
 
 ## ⭐️ License
-#### <a href="https://github.com/Mastersam07/toju_wa/blob/master/LICENSE.md">MIT LICENSE</a>
+#### <a href="https://github.com/Mastersam07/toju_wa/blob/master/LICENSE">MIT LICENSE</a>
 
 ## 🤓 Developer(s)
 **Abada Samuel Oghenero**
