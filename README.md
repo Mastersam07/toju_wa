@@ -36,9 +36,9 @@ Download the `app-debug.apk` to try out the app
 ## 📸 ScreenShots
 
 
-|<img src="ss/correct1.png" width="250">|<img src="ss/2.png" width="250">|
+|<img src="ss/updated.png" width="250">|<img src="ss/2.png" width="250">|
 |<img src="ss/3.png" width="250">|<img src="ss/4.png" width="250">|
-|<img src="ss/5.png" width="250">|<img src="ss/6.png" width="250">|
+|<img src="ss/updatedhelp.png" width="250">|<img src="ss/6.png" width="250">|
 
 ## 🔌 Plugins
 | Name | Usage |
