@@ -16,7 +16,7 @@ class HelpLine extends StatelessWidget {
         shrinkWrap: true,
         itemBuilder: (c, i) {
           return Card(
-            elevation: 10.0,
+            elevation: 0.0,
             child: Padding(
               padding: const EdgeInsets.all(12.0),
               child: Row(

@@ -66,8 +66,7 @@ class _HomeState extends State<Home> {
     if (response.statusCode >= 200 && response.statusCode <= 299) {
       Map<String, dynamic> data = jsonDecode(response.body);
       setState(() {
-        countries = jsonDecode(response.body);
-        numberOfCountries = data['countries'].length;
+        countries = data['countries'];
       });
       print(data);
     } else {
@@ -75,10 +74,12 @@ class _HomeState extends State<Home> {
     }
   }
 
+
   @override
   void initState() {
     getTotalCasesForCorona();
     getCasesForCorona();
+    getCountriesData();
     Timer.periodic(
       Duration(hours: 1),
       (Timer t) => getTotalCasesForCorona(),
@@ -86,6 +87,10 @@ class _HomeState extends State<Home> {
     Timer.periodic(
       Duration(hours: 1),
       (Timer t) => getCasesForCorona(),
+    );
+    Timer.periodic(
+      Duration(hours: 1),
+      (Timer t) => getCountriesData(),
     );
     super.initState();
   }
@@ -125,7 +130,7 @@ class _HomeState extends State<Home> {
                           title: 'Countries',
                           color: Colors.orange,
                           icon: Icon(Icons.flag, color: Colors.white),
-                          number: numberOfCountries,
+                          number: countries.length,
                           onPressed: () {},
                         ),
                       ],
