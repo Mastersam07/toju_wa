@@ -1,11 +1,12 @@
 # tojuwa
 
-Corona tracking application built with flutter
+Corona tracker application with news updates and helplines built with flutter
 
-[![Codemagic build status](https://api.codemagic.io/apps/5e7e1244c986422ef4e10b98/5e7e1244c986422ef4e10b97/status_badge.svg)](https://codemagic.io/apps/5e7e1244c986422ef4e10b98/5e7e1244c986422ef4e10b97/latest_build)
+[![Codemagic build status](https://api.codemagic.io/apps/5e7e1244c986422ef4e10b98/5e7e1244c986422ef4e10b97/status_badge.svg?style=flat-square)](https://codemagic.io/apps/5e7e1244c986422ef4e10b98/5e7e1244c986422ef4e10b97/latest_build)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-success.svg?style=flat-square)](https://github.com/Mastersam07/toju_wa/pulls)
 ![GitHub contributors](https://img.shields.io/github/contributors/mastersam07/toju_wa?color=success&style=flat-square)
 ![GitHub last commit](https://img.shields.io/github/last-commit/mastersam07/toju_wa?style=flat-square)
+[![License](https://img.shields.io/badge/license-MIT-success.svg?style=flat-square)](https://github.com/Mastersam07/toju_wa/blob/master/LICENSE)
 
 > This app is under development
 >
@@ -14,7 +15,7 @@ Corona tracking application built with flutter
 ## Demo
 Download the `app-debug.apk` to try out the app
 <br>
-<a href="https://static.codemagic.io/files/ad6a8f6f-bc38-491d-a59f-13e6d26bbdc9/f4909f9e-c771-4cb4-a093-7049de7630f6/app-debug.apk"><img src="https://playerzon.com/asset/download.png" width="200"></img></a>
+<a href="https://static.codemagic.io/files/2c8e4326-8f68-4964-b561-dea221b5bfc6/699387e4-b29c-41a5-b601-8e3e40c9cbb9/app-debug.apk"><img src="https://playerzon.com/asset/download.png" width="200"></img></a>
 <br>
 
 ## 💻 Requirements
@@ -81,7 +82,7 @@ String apiKey = "Your_Api_Key";
 #### Encounter any problem(s)? feel free to open an issue. If you feel you could make something better, please raise a ticket on Github and I'll look into it. Pull request are also welcome.
 
 ## ⭐️ License
-#### <a href="https://github.com/Mastersam07/toju_wa/blob/master/LICENSE.md">MIT LICENSE</a>
+#### <a href="https://github.com/Mastersam07/toju_wa/blob/master/LICENSE">MIT LICENSE</a>
 
 ## 🤓 Developer(s)
 **Abada Samuel Oghenero**
