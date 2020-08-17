@@ -2,20 +2,19 @@
 
 Corona tracker application with news updates and helplines built with flutter
 
-[![Codemagic build status](https://api.codemagic.io/apps/5e7e1244c986422ef4e10b98/5e7e1244c986422ef4e10b97/status_badge.svg?style=flat-square)](https://codemagic.io/apps/5e7e1244c986422ef4e10b98/5e7e1244c986422ef4e10b97/latest_build)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-success.svg?style=flat-square)](https://github.com/Mastersam07/toju_wa/pulls)
 ![GitHub contributors](https://img.shields.io/github/contributors/mastersam07/toju_wa?color=success&style=flat-square)
 ![GitHub last commit](https://img.shields.io/github/last-commit/mastersam07/toju_wa?style=flat-square)
-[![License](https://img.shields.io/badge/license-MIT-success.svg?style=flat-square)](https://github.com/Mastersam07/toju_wa/blob/master/LICENSE)
+[![License](https://img.shields.io/badge/license-MIT-success.svg?style=flat-square)](https://github.com/Mastersam07/toju_wa/blob/stable/LICENSE)
 
-> This app is in beta
->
+> This app is in its first version
+>> Check the <a href="https://github.com/Mastersam07/toju_wa/releases">release page</a>
 >
 
 ## Demo
-Download the `app-release.apk` to try out the beta version
+Download the `app-release.apk`
 <br>
-<a href="https://bit.ly/betatojuwa"><img src="https://playerzon.com/asset/download.png" width="200"></img></a>
+<a href="https://github.com/Mastersam07/toju_wa/releases/download/v1.0/app-release.apk"><img src="https://playerzon.com/asset/download.png" width="200"></img></a>
 <br>
 
 ## 💻 Requirements
